@@ -4,25 +4,24 @@ import { Entity, model, property } from '@loopback/repository';
 export class AlertRequest extends Entity {
   @property({
     type: 'number',
-    id: true,
-    required: true,
+    id: true
   })
   requestid: number;
 
   @property({
-    type: 'boolean',
+    type: 'number',
   })
-  processed?: boolean;
+  processed?: number;
 
   @property({
-    type: 'boolean',
+    type: 'number',
   })
-  match?: boolean;
+  match?: number;
 
   @property({
-    type: 'boolean',
+    type: 'number',
   })
-  alerted?: boolean;
+  alerted?: number;
 
   @property({
     type: 'string',
