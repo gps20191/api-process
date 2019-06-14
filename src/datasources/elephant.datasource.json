@@ -1,0 +1,10 @@
+{
+  "name": "elephant",
+  "connector": "postgresql",
+  "url": "",
+  "host": "motty.db.elephantsql.com",
+  "port": 5432,
+  "user": "dirvxher",
+  "password": "lW4EmcVPA7buBIVqObKquyXlSQwbm8JF",
+  "database": "dirvxher"
+}
